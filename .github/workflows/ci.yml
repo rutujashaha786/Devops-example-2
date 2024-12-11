@@ -4,8 +4,8 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
     branches:
-      - main
-      - development
+      - master
+      - develop
 # jobs are steps that are executed
 jobs:
   build-and-test:
